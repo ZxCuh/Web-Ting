@@ -58,38 +58,39 @@ body {
 }
 
 nav {
-    background-color: #f9f9f9;
+    background-color: #302e34;
+    margin: 0;
+    padding: 0;
     display: block;
     height: 50px;
-    float: left;
-    width: 100%;
 }
 
-nav li {
+nav ul li {
     list-style: none;
+    float: left;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    background-color: #1e1f22;
 }
 
-nav li a {
-    color: black;
-    padding: 10px;
+nav ul li a {
     text-decoration: none;
+    color: #c8c3d4;
+    margin: 0;
+    padding: 16px;
     display: block;
 }
 
 nav ul {
-    display: inline;
-    text-align: center;
-    width: 100%;
-    padding: 0;
     margin: 0;
-    overflow: hidden;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding: 0;
 }
 
-nav li a:hover {
-    background-color: black;
-    color: #f1f1f1;
+nav ul li a:hover {
+    background-color: #c8c3d4;
+    color: #1e1f22;
 }
 
 .dropdown span {
@@ -142,11 +143,8 @@ button:hover {
     float: left;
 }
 
-nav {
-    clear: both;
-}
-
 p {
     font-size: 16px;
 }
+
 
